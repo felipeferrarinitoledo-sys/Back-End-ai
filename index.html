@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Portfólio</title>
     <style>
         body {
             background-color: rgb(255, 255, 255);
-            width: 1000px;
-            height: 500px;
+            margin: 0;
+            padding: 0;
         }
 
         header {
             background-color: rgb(1, 36, 95);
-            width: 150%;
-            height: 10%;
-            text-align: left;
-            
+            width: 100%;
+            height: 60px;
+            padding: 20px 0;
+            box-sizing: border-box;
         }
-        .container{
+        
+        .container {
             display: flex;
             justify-content: center;
             gap: 50px;
-            
         }
-        a{
+        
+        header a {
             color: rgb(255, 255, 255);
+            text-decoration: none;
         }
-        a:hover{
-            color: rgb(255, 255, 255);
+        
+        header a:hover {
+            color: rgb(200, 200, 200);
+        }
+        
+        header h2 {
+            margin: 0;
         }
     </style>
 </head>
+
 <body>
     <header>
-      <div class="container">
-        
-      <a href="Sobre mim.html"><h2>Sobre mim</h2></a><br>
-      <a href="formaçao.html"><h2>Formaçao</h2></a><br>
-      <a href="portofolio.html"><h2>Portofólio</h2></a><br>
-      <a href="contato.html"><h2>Contato</h2></a><br>
-      
-    </div>
+        <div class="container">
+            <a href="sobre-mim.html"><h2>Sobre mim</h2></a>
+            <a href="formacao.html"><h2>Formação</h2></a>
+            <a href="portfolio.html"><h2>Portfólio</h2></a>
+            <a href="contato.html"><h2>Contato</h2></a>
+        </div>
     </header>
 </body>
+
+</html>
